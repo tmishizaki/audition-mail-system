@@ -1,0 +1,331 @@
+/* -----------------------------------------
+html5 reset
+------------------------------------------*/
+@import "html5-reset.css" ;
+
+/* -----------------------------------------
+clearfix
+------------------------------------------*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-table;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+.cb{clear:both;height:0;line-height:0;font-size:1%;}
+
+/* -----------------------------------------
+layout
+------------------------------------------*/
+#body_inner{
+	background:url(../img/body_base.jpg) 50% 0 no-repeat;
+}
+
+#contents{
+	position:relative;
+	width:910px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.box{
+	width:100%;
+}
+
+/* -----------------------------------------
+basic
+------------------------------------------*/
+body{
+	font-size:14px;
+	font-family:Meiryo,"メイリオ","ＭＳ ゴシック","Osaka -等幅","ヒラギノ角ゴ Pro W3";
+	line-height:1.7;
+	color:#666;
+}
+a{
+	color:#2ea7e0;
+}
+a:visited {
+	color:#2ea7e0;
+}
+a:hover {
+	color:#2ea7e0;
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+a:hover img.alpha { opacity:0.8; filter: alpha(opacity=80); }
+
+.f_left{
+	float:left;
+}
+.f_right{
+	float:right;
+}
+.fs85{
+	font-size:85%;
+}
+.fs70{
+	font-size:70%;
+}
+
+/*ie7対策*/
+*{
+		/background-color:transparent;
+}
+.red{
+	color:#D81226;
+	vertical-align:baseline;
+}
+.red_c{
+	display:inline-block;
+	color:#D81226;
+	vertical-align:baseline;
+	height:16px;
+	border:#D81226 solid 1px;
+	border-radius:8px;
+	padding:0 4px;
+	font-size:10px;
+}
+.t_center{
+	text-align:center;
+}
+.t_right{
+	text-align:right;
+}
+
+.mt05{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt40{margin-top:40px;}
+.mt50{margin-top:50px;}
+.mt70{margin-top:70px;}
+.mt100{margin-top:100px;}
+.mb05{margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mb30{margin-bottom:30px;}
+.mb40{margin-bottom:40px;}
+.mb50{margin-bottom:50px;}
+.mb70{margin-bottom:70px;}
+.mb100{margin-bottom:100px;}
+.mr05{margin-right:5px;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.mr30{margin-right:30px;}
+.mr40{margin-right:40px;}
+.mr50{margin-right:50px;}
+.mr70{margin-right:70px;}
+.mr100{margin-right:100px;}
+.ml05{margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml20{margin-left:20px;}
+.ml30{margin-left:30px;}
+.ml40{margin-left:40px;}
+.ml46{margin-left:46px;}
+.ml50{margin-left:50px;}
+.ml70{margin-left:70px;}
+.ml100{margin-left:100px;}
+
+/* -----------------------------------------
+header
+------------------------------------------*/
+
+header{
+	position:relative;
+	width:910px;
+	height:610px;
+	margin:0 auto;
+}
+header h1{
+	position:absolute;
+	left:45px;
+	top:122px;
+}
+
+header #logo{
+	position:absolute;
+	left:2px;
+	top:1px;
+}
+header #cache{
+	position:absolute;
+	left:57px;
+	top:388px;
+	color:#ef9708;
+	font-size:20px;
+	font-weight:bold;
+}
+header #msg{
+	position:absolute;
+	left:50px;
+	top:454px;
+	font-size:18px;
+	line-height:1.55;
+}
+
+
+
+/* -----------------------------------------
+footer
+------------------------------------------*/
+footer{
+	position:relative;
+	width:910px;
+	height:90px;
+	margin:0 auto;
+	background-color:#2091d1;
+	color:#FFF;
+}
+#cp{
+	position:absolute;
+	top:7px;
+	left:5px;
+	font-size:8px;
+	line-height:1.7;
+}
+#fnavi{
+	position:absolute;
+	top:59px;
+	left:558px;
+	width: 370px;
+}
+#fnavi li{
+	float:left;
+	color:#FFF;
+	background:url(../img/arrow.png) 0 50% no-repeat;
+	padding-left:15px;
+	margin-right:8px;
+	font-size:12px;
+}
+#fnavi li a{
+	color:#FFF;
+	text-decoration:none;
+}
+#fnavi li a:hover{
+	text-decoration:underline;
+}
+
+	
+/*
+form
+*/
+#box01{
+	margin-bottom:67px;
+}
+.tb1{
+	border:#979696 solid 1px;
+	width:818px;
+	margin:0 auto;
+	background-color:#FFF;
+}
+.tb1 th{
+	text-align:center;
+	padding:7px;
+	width:180px;
+	background-color:#2091d1;
+	color:#FFF;
+	border-bottom:#abd5ed solid 1px;
+	letter-spacing: 0.5em;
+	font-size:18px;
+	font-weight:bold;
+}
+.tb1 td{
+	text-align:left;
+	padding:7px;
+	border-bottom:#979696 solid 1px;
+}
+.mead{
+	font-size:16px;
+	font-weight:bold;
+	vertical-align:baseline;
+}
+
+.mailform{
+	width:818px;
+	margin:0 auto;
+}
+.mailform td,.mailform th{
+	padding:10px;
+	border-bottom:#fff solid 2px;
+	background-color:#eeeeef;
+}
+.mailform th{
+	width:300px;
+	text-align:left;
+	font-weight:normal;
+	vertical-align:top;
+}
+#form1 label.error {
+    display: none;
+}
+#form1 label.error {
+	color:#F00;
+    display: none;
+	width:480px;
+	float:left;
+
+}
+.inp_2em{
+	width:2em;
+}
+.inp_3em{
+	width:3em;
+}
+.inp_4em{
+	width:4em;
+}
+.inp0{
+	width:75px;
+}
+.inp1{
+	width:100px;
+}
+.inp2{
+	width:200px;
+}
+.inp3{
+	width:400px;
+}
+input[type="text"],input[type="email"],textarea,select{
+	padding:3px;
+	font-size:14px;
+}
+input[type="file"]{
+	padding:3px;
+	font-size:14px;
+	width:200px;
+}
+#submit_box p{
+	text-align:center;
+}
+
+#submit_box{
+	margin:30px 0;
+}
+#check_btn:hover{
+	opacity:0.8; filter: alpha(opacity=80);
+}
+label.w1{
+	display:inline-block;
+	width:30px;
+	text-align:right;
+}
+label.w2{
+	display:inline-block;
+	width:60px;
+	text-align:right;
+}
+label.w3{
+	display:inline-block;
+	width:90px;
+	text-align:right;
+}
+.td_box{
+	width:200px;
+	float:left;
+}
+.session_error{
+	color:#F00;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}

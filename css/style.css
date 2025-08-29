@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+/* ====================================================
+   HTML5 display definitions
+ ====================================================*/
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-style:normal;font-weight: normal;font-size: 100%;vertical-align: baseline;}abbr[title] {border-bottom: 1px dotted;}strong {font-weight: bold;}dfn {font-style: italic;}hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0; clear:both;}mark {background: #ff0;color: #000}code,kbd,pre,samp {    font-family: monospace, serif;font-size: 1em}pre {white-space: pre-wrap}q {quotes: "\201C" "\201D" "\2018" "\2019";}small {font-size: 80%;}sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}sup { top: -0.5em;}sub {bottom: -0.25em;}img {border: 0; max-width: 100%;height:auto;}svg:not(:root) {overflow: hidden;}figure,figcaption { margin: 0;padding:0;}table { border-collapse: collapse; border-spacing: 0;}ul,ol{list-style:none;}
+/* ====================================================
+   Base
+ ====================================================*/
+html {font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; height:100%;}
+body {position:relative;margin: 0; color: #000;height:100%;background: url(../images/bg_all01.jpg) 0 0 no-repeat fixed, url(../images/bg_all02.jpg) right bottom no-repeat fixed;font-size:13px;line-height:1.6;font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;font-weight: normal;}
+
+/* ====================================================
+   Links
+   ==================================================== */
+
+a {background: transparent;}
+a:focus {outline: none}
+
+
+
+/* ====================================================
+   Typography
+   ==================================================== */
+
+abbr[title] {border-bottom: 1px dotted;}strong {font-weight: bold;}dfn {font-style: italic;}hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0; clear:both;}mark {background: #ff0;color: #000}code,kbd,pre,samp {    font-family: monospace, serif;font-size: 1em}pre {white-space: pre-wrap}q {quotes: "\201C" "\201D" "\2018" "\2019";}small {font-size: 80%;}sub,sup {font-size: 75%;line-height: 0;position: relative;vertical-align: baseline;}sup { top: -0.5em;}sub {bottom: -0.25em;}img {border: 0; max-width:100%;height:auto;}svg:not(:root) {overflow: hidden;}figure,figcaption { margin: 0;padding:0;}table { border-collapse: collapse; border-spacing: 0;}
+
+/* **************************************
+common class style
+************************************** */
+
+/* size style
+-------------------------------------- */
+
+.clear {clear: both !important}.hide {display: none}.alnR { text-align: right !important}.alnL { text-align: left !important}.alnC { text-align: center !important}.vlnT { vertical-align: top !important}.vlnM { vertical-align: middle !important}.vlnB { vertical-align: bottom !important;}.vlnL { vertical-align: baseline !important}.fltL { float:left !important}.fltR { float:right !important}.imgL { float:left; margin: 0 15px 15px 0} .imgR { float:right; margin: 0 15px 15px}.mt10 { margin-top: 10px !important}.mt20 { margin-top: 20px !important}.mb10 { margin-bottom: 10px !important}.mb15 { margin-bottom: 15px !important}.mb25 { margin-bottom: 25px !important}.ml10 { margin-left: 10px !important}.mr15 { margin-right:15px !important}.mtb10 { margin-top:10px !important; margin-bottom:10px !important}.pt10 { padding-top: 10px !important}.pt15 {padding-top:15px important}.pb10 { padding-bottom: 10px !important}.pl10 { padding-left: 10px !important}.pr10 { padding-right: 10px !important}.fBld { font-weight: bold;}
+
+/*========================
+TEXT
+========================*/
+
+
+/* font collor
+-------------------------------------- */
+a:link,a:visited {color: #C64845;}
+a:hover,a:active {color: #626B36;}
+.red {color: #C64845;}
+/* common hack style
+-------------------------------------- */
+
+/* */
+.cf:after {content: ".";display: block; clear: both;height: 0;visibility: hidden;}
+
+/* ====================================================
+   Base
+   ==================================================== */
+
+body#auditionTop {
+	background: #00C0FF url(../images/bg_all_top.jpg) 50% 0 no-repeat;
+}
+body#auditionLwr {
+	background: #00C0FF url(/audition/images/bg_all.jpg) 50% 0 no-repeat;
+}
+.wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* ====================================================
+   header
+   ==================================================== */
+#pageHeader {
+	position:relative;
+	height: 185px;
+}
+#jcrew {
+	position: absolute;
+	top: 75px;
+	left:0;
+}
+
+
+/* ====================================================
+   main
+   ==================================================== */
+
+#auditionArea {
+	position: relative;
+	padding-top:150px;
+}
+
+
+
+#umiNm {
+	color: #2B0EF1;
+	font-weight: bold;
+	font-size: 26px;
+	position: absolute;
+	top:0;
+	right: 425px;
+}
+#umiProf {
+	margin-top: -75px;
+	margin-right:275px;
+	padding-bottom:10px;
+	text-align: right;
+}
+.adtnPh {
+	margin-left: 34px;
+}
+.adtnPh li {
+	float:left;
+	margin-left: 20px;
+}
+.adtnLead {
+	clear: both;
+	font-size: 21px;
+	letter-spacing: -0.01em;
+	text-align:justify;
+	margin-left: 54px;
+	padding-bottom: 60px;
+	color: #00539C;
+	font-weight: bold;
+	width: 873px;
+	text-shadow:0px 5px 1px #FFF,0px 4px 1px #FFF,1px 4px 1px #FFF,2px 4px 1px #FFF,3px 3px 1px #FFF,4px 2px 1px #FFF,4px 1px 1px #FFF,4px 0px 1px #FFF,5px 0px 1px #FFF,4px -1px 1px #FFF,4px -2px 1px #FFF,4px -3px 1px #FFF,3px -4px 1px #FFF,2px -5px 1px #FFF,1px -5px 1px #FFF,0px -5px 1px #FFF,-1px -5px 1px #FFF,-2px -5px 1px #FFF,-3px -5px 1px #FFF,-4px -4px 1px #FFF,-5px -3px 1px #FFF,-5px -2px 1px #FFF,-5px -1px 1px #FFF,-5px 0px 1px #FFF,-5px 1px 1px #FFF,-5px 2px 1px #FFF,-4px 3px 1px #FFF,-3px 4px 1px #FFF,-2px 4px 1px #FFF,-1px 4px 1px #FFF;
+filter:dropshadow(color=#FFF,offx=0,offy=5,positive=1),dropshadow(color=#FFF,offx=3,offy=3,positive=1),dropshadow(color=#FFF,offx=4,offy=-1,positive=1),dropshadow(color=#FFF,offx=2,offy=-5,positive=1),dropshadow(color=#FFF,offx=-2,offy=-5,positive=1),dropshadow(color=#FFF,offx=-5,offy=-2,positive=1),dropshadow(color=#FFF,offx=-5,offy=2,positive=1),dropshadow(color=#FFF,offx=-1,offy=4,positive=1);
+}
+
+#adtnRcrt {
+	width: 1142px;
+	margin: auto;
+}
+#adtnRcrt h1 img {
+	vertical-align: bottom;
+}
+.rcrtBtm {
+	background:url(../images/rcrt_btm_bg.png) 50% bottom no-repeat;
+	padding: 0 80px 20px;
+	min-height:387px;
+}
+.rcrtBtm dl {
+	font-size: 15px;
+	line-height: 1.4;
+}
+.rcrtBtm dl dd {
+	padding-left: 4em;
+	margin-bottom:20px;
+}
+
+.rcrtBtm dl dd dl dd {
+	margin-bottom:0;
+	padding-left: 5px;
+}
+#rcrtL {
+	float:left;
+	width: 49%;
+	font-weight: bold;
+}
+#rcrtR {
+	float: right;
+	width: 47%;
+	font-weight: bold;
+}
+.lsg {
+	letter-spacing: 1em;
+}
+.rcrtBtm dl dd dl dd.plR1 {
+	padding-left:4.3em;
+}
+.plR2 {
+	letter-spacing: 0.22em;
+}
+.plR3 {
+	padding-left:4.3em;
+	display:inline-block;
+}
+.clrL {
+	clear:left;
+}
+/* ====================================================
+   footer
+   ==================================================== */
+
+#pageFooter {
+	clear: both;
+	margin-top: 60px;
+	padding: 20px 0;
+	background-color: #2192D2;
+}
+.footerNav {
+	float:right;
+	margin-right:20px
+}
+.footerNav li {
+	display:inline;
+	padding: 0 10px;
+}
+.footerNav a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footerNav a:hover {
+	text-decoration: underline;
+}
+.copyrightArea {
+	float: left;
+	color: #FFF;
+	font-size: 11px;
+	margin-left:20px
+}
+.copyright {
+	padding-left:4px;
+}
+
+
+#entryForm,#confirmForm {
+	background-color: #FFF;
+	border-radius: 30px;
+	padding: 40px;
+	margin: 45px 30px;
+}
+.entryTtl {
+	color:#2DC0FF;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	margin-right: 20px;
+	margin-top:-3px;
+}
+#formArea {
+	margin:15px 10px;
+	
+}
+#formArea dt {
+	float:left;
+	clear:left;
+	width: 200px;
+	padding:20px 10px 0;
+}
+#formArea dd {
+	padding:20px 10px 20px 220px;
+	border-bottom: #CCF4FB 1px solid
+}
+.ntsE {
+	font-size: 11px;
+	color: #7A7A7A;
+}
+input,textarea, select {
+	border: #666 1px solid;
+	padding: 2px 5px;
+	line-height: 1.6;
+}
+textarea {
+	width: 500px;
+	height: 8em;
+}
+.txtIpt {
+	width: 500px;
+}
+.pref {
+	width: 120px;
+	margin-top:10px;
+}
+.inp3 {
+	width: 370px;
+	
+}
+.inp_3em {
+	width: 4em;
+}
+#file1,#file2 {
+	border: none !important;
+}
+#file1 {
+	margin-bottom: 10px;
+}
+.phIpt {
+	display: inline-block;
+	width: 6.5em;
+}
+#confirmForm img {
+	margin-bottom:20px;
+}
+#submit {
+	text-align:center;
+	margin-top:20px;
+}
+#send {
+	color: #FFFFFF;
+	background-color: #F740B6;
+	border: #F5D6F3 2px solid;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+#confirmForm {
+	margin-top: 200px;
+	min-height: 400px;
+}
+.mailaddress {
+	width: 500px;
+}
